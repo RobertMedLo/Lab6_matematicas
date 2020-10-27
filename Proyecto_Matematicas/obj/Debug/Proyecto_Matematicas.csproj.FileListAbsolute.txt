@@ -1,0 +1,12 @@
+C:\Users\DELL\Documents\Visual proyectos\Proyecto_Matematicas\Proyecto_Matematicas\bin\Debug\Proyecto_Matematicas.exe.config
+C:\Users\DELL\Documents\Visual proyectos\Proyecto_Matematicas\Proyecto_Matematicas\bin\Debug\Proyecto_Matematicas.exe
+C:\Users\DELL\Documents\Visual proyectos\Proyecto_Matematicas\Proyecto_Matematicas\bin\Debug\Proyecto_Matematicas.pdb
+C:\Users\DELL\Documents\Visual proyectos\Proyecto_Matematicas\Proyecto_Matematicas\obj\Debug\Proyecto_Matematicas.csprojAssemblyReference.cache
+C:\Users\DELL\Documents\Visual proyectos\Proyecto_Matematicas\Proyecto_Matematicas\obj\Debug\Proyecto_Matematicas.Properties.Resources.resources
+C:\Users\DELL\Documents\Visual proyectos\Proyecto_Matematicas\Proyecto_Matematicas\obj\Debug\Proyecto_Matematicas.csproj.GenerateResource.cache
+C:\Users\DELL\Documents\Visual proyectos\Proyecto_Matematicas\Proyecto_Matematicas\obj\Debug\Proyecto_Matematicas.exe
+C:\Users\DELL\Documents\Visual proyectos\Proyecto_Matematicas\Proyecto_Matematicas\obj\Debug\Proyecto_Matematicas.pdb
+C:\Users\DELL\Documents\Visual proyectos\Proyecto_Matematicas\Proyecto_Matematicas\obj\Debug\Proyecto_Matematicas.Funciones.resources
+C:\Users\DELL\Documents\Visual proyectos\Proyecto_Matematicas\Proyecto_Matematicas\obj\Debug\Proyecto_Matematicas.Matrices.resources
+C:\Users\DELL\Documents\Visual proyectos\Proyecto_Matematicas\Proyecto_Matematicas\obj\Debug\Proyecto_Matematicas.Main.resources
+C:\Users\DELL\Documents\Visual proyectos\Proyecto_Matematicas\Proyecto_Matematicas\obj\Debug\Proyecto_Matematicas.Home.resources
