@@ -10,3 +10,5 @@ C:\Users\DELL\Documents\Visual proyectos\Proyecto_Matematicas\Proyecto_Matematic
 C:\Users\DELL\Documents\Visual proyectos\Proyecto_Matematicas\Proyecto_Matematicas\obj\Debug\Proyecto_Matematicas.Matrices.resources
 C:\Users\DELL\Documents\Visual proyectos\Proyecto_Matematicas\Proyecto_Matematicas\obj\Debug\Proyecto_Matematicas.Main.resources
 C:\Users\DELL\Documents\Visual proyectos\Proyecto_Matematicas\Proyecto_Matematicas\obj\Debug\Proyecto_Matematicas.Home.resources
+C:\Users\DELL\Documents\Visual proyectos\Proyecto_Matematicas\Proyecto_Matematicas\obj\Debug\Proyecto_Matematicas.ImputBoxRotar.resources
+C:\Users\DELL\Documents\Visual proyectos\Proyecto_Matematicas\Proyecto_Matematicas\obj\Debug\Proyecto_Matematicas.InputBoxEscalar.resources

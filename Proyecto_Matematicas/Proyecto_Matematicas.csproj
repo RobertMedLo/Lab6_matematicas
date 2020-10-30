@@ -58,6 +58,18 @@
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
+    <Compile Include="ImputBoxRotar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImputBoxRotar.Designer.cs">
+      <DependentUpon>ImputBoxRotar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputBoxEscalar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputBoxEscalar.Designer.cs">
+      <DependentUpon>InputBoxEscalar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +89,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImputBoxRotar.resx">
+      <DependentUpon>ImputBoxRotar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputBoxEscalar.resx">
+      <DependentUpon>InputBoxEscalar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
