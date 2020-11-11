@@ -28,18 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_escala = new System.Windows.Forms.TextBox();
             this.btn_guardar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txt_escala
             // 
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(12, 22);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(178, 31);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txt_escala.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_escala.Location = new System.Drawing.Point(12, 22);
+            this.txt_escala.Name = "txt_escala";
+            this.txt_escala.Size = new System.Drawing.Size(178, 31);
+            this.txt_escala.TabIndex = 0;
+            this.txt_escala.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // btn_guardar
             // 
@@ -57,7 +57,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(317, 80);
             this.Controls.Add(this.btn_guardar);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txt_escala);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "InputBoxEscalar";
@@ -70,7 +70,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_escala;
         private System.Windows.Forms.Button btn_guardar;
     }
 }

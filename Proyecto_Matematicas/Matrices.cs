@@ -85,7 +85,10 @@ namespace Proyecto_Matematicas
         {
             igualar_dimensiones();
             ImputBoxRotar ir = new ImputBoxRotar();
+            ir.ShowDialog();
             int angulo = ir.dato();
+            
+            MessageBox.Show("El angulo es de : " + angulo +"grados y en radianes es de : "+Math.Cos(((180/Math.PI)*Convert.ToDouble(angulo))));
             int tamaño = Matriz_principal.Rows.Count - 1;//obtenemos la cantidad de filas que existen en la matriz principal
 
             //creamos y llenamos la matriz con la que se rota

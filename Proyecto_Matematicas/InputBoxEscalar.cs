@@ -25,7 +25,7 @@ namespace Proyecto_Matematicas
         }
         public int dato()
         {
-            return Convert.ToInt32(textBox1.Text);
+            return Convert.ToInt32(txt_escala.Text);
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
