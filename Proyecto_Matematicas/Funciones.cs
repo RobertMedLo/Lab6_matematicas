@@ -16,7 +16,7 @@ namespace Proyecto_Matematicas
         private Graphics grafico;//creamos el objeto grafico de forma global
         private float X_centro, Y_centro,f;
         //variables a utilizar en la interacion de la funcion
-        private float x1, y1, x2, y2, acumulador=0.01f;
+        private float x1, y1, x2, y2, acumulador=0.001f;
 
         private string expresion;
 
@@ -102,8 +102,6 @@ namespace Proyecto_Matematicas
             }
             else
             {
-                
-                
                 return 0;
             }
            
