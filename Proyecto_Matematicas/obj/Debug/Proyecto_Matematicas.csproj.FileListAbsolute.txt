@@ -12,3 +12,6 @@ C:\Users\DELL\Documents\Visual proyectos\Proyecto_Matematicas\Proyecto_Matematic
 C:\Users\DELL\Documents\Visual proyectos\Proyecto_Matematicas\Proyecto_Matematicas\obj\Debug\Proyecto_Matematicas.Home.resources
 C:\Users\DELL\Documents\Visual proyectos\Proyecto_Matematicas\Proyecto_Matematicas\obj\Debug\Proyecto_Matematicas.ImputBoxRotar.resources
 C:\Users\DELL\Documents\Visual proyectos\Proyecto_Matematicas\Proyecto_Matematicas\obj\Debug\Proyecto_Matematicas.InputBoxEscalar.resources
+C:\Users\DELL\Documents\Visual proyectos\Proyecto_Matematicas\Proyecto_Matematicas\bin\Debug\Calculus.dll
+C:\Users\DELL\Documents\Visual proyectos\Proyecto_Matematicas\Proyecto_Matematicas\obj\Debug\Proyecto_Matematicas.csproj.CopyComplete
+C:\Users\DELL\Documents\Visual proyectos\Proyecto_Matematicas\Proyecto_Matematicas\obj\Debug\Proyecto_Matematicas.Derivadas.resources

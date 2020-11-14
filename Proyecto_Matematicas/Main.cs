@@ -55,6 +55,12 @@ namespace Proyecto_Matematicas
             Home home = new Home();
             AbrirForm_EnPanel(home);
         }
+
+        private void btn_derivadas_Click(object sender, EventArgs e)
+        {
+            Derivadas derivadas = new Derivadas();
+            AbrirForm_EnPanel(derivadas);
+        }
         //----------------------------------------------------------------------------------------------
     }
 }

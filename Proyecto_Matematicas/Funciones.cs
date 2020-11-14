@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Calculus;//esta es la libreria de terceros que analiza la exprecion desde el texbox
 
 namespace Proyecto_Matematicas
 {
@@ -15,7 +16,11 @@ namespace Proyecto_Matematicas
         private Graphics grafico;//creamos el objeto grafico de forma global
         private float X_centro, Y_centro,f;
         //variables a utilizar en la interacion de la funcion
-        private float x1, y1, x2, y2, acumulador=1;
+        private float x1, y1, x2, y2, acumulador=0.01f;
+
+        private string expresion;
+
+        Calculo analisador_de_funcion = new Calculo();//creamos el objeto de la clase de terceros
 
         private void Funciones_Load(object sender, EventArgs e)
         {
@@ -34,11 +39,12 @@ namespace Proyecto_Matematicas
 
         private void btn_grafica_Click(object sender, EventArgs e)
         {
+            
             //al hacer click en este boton se mostrará la grafica
             //capturamos la funcion
-            f = float.Parse(txt_funcion.Text);
+            //f = float.Parse(txt_funcion.Text);
             //creamos el objeto de tipo grafico y le asignamos el marco de dibujo de la picturebox
-            grafico=pic_grafica.CreateGraphics();
+            grafico =pic_grafica.CreateGraphics();
             
 
             //como estamos trabajando con el plano carteciano necesitamos trasladar las cordenada 0,0 al centro del pictureBox
@@ -49,15 +55,26 @@ namespace Proyecto_Matematicas
             grafico.TranslateTransform(X_centro,Y_centro);
             
             dibujar_ejes();//llamamos al metodo
+            //-------------------------------------------------------------------------------------------------------------------------------
+
+            expresion = txt_funcion.Text;//guardamos la funcion que se inserte en el texbox
+
+            
 
             //mostramos la funcion
-            grafico.ScaleTransform(2, 2);//escalamos la funcion
+            grafico.ScaleTransform(4,4);//escalamos la funcion
             x1 = -X_centro;
             while (x1<X_centro)//iteramos la funcion tomando encuenta el desbordamiento de pantalla
             {
                 y1 = funcion(x1);
                 x2 = x1 + acumulador;
                 y2 = funcion(x2);
+                if (y2 == 0)
+                {
+                    MessageBox.Show("La sintaxis de la funcion insertada NO es correcto");//cerramos y terminamos el bucle
+                    txt_funcion.Clear();//limpiamos el texbox
+                    break;
+                }
                 grafico.DrawLine(Pens.Red, x1, y1, x2, y2);
                 x1=x2;
             }
@@ -66,7 +83,7 @@ namespace Proyecto_Matematicas
         {
             //con este metodo dibujaremos los ejes del plano carteciano
             //los parametros son --> el tipo de lapiz que se va a utilizar y las cordenadas donde empieza y donde termina
-
+            //pic_grafica.BackColor = Color.FromArgb(255, 255, 255);
             //eje X
             grafico.DrawLine(Pens.Black,-X_centro, 0, X_centro, 0);
             //eje Y
@@ -77,9 +94,21 @@ namespace Proyecto_Matematicas
         //metodo para evaluar la funcion que va a entrar
         private float funcion(float x)
         {
-            float y = f;
+            float y = 0;
+            if (analisador_de_funcion.Sintaxis(expresion,'x'))
+            {
+               y = (float)analisador_de_funcion.EvaluaFx(x);
+               return y * -1;//retornamos la variable ya evaluada en X
+            }
+            else
+            {
+                
+                
+                return 0;
+            }
+           
             
-            return y*-1;//retornamos la variable ya evaluada en X
+            
         }
     }
 }

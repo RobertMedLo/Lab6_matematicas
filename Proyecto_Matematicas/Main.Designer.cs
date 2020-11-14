@@ -63,6 +63,7 @@
             this.btn_derivadas.TabIndex = 2;
             this.btn_derivadas.Text = "Derivadas";
             this.btn_derivadas.UseVisualStyleBackColor = true;
+            this.btn_derivadas.Click += new System.EventHandler(this.btn_derivadas_Click);
             // 
             // btn_limites
             // 

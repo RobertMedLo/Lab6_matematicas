@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Calculus">
+      <HintPath>..\..\..\..\Desktop\Calculos-dll-para-C-sharp-master\Calculus.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Derivadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Derivadas.Designer.cs">
+      <DependentUpon>Derivadas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Funciones.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +93,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Derivadas.resx">
+      <DependentUpon>Derivadas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Funciones.resx">
       <DependentUpon>Funciones.cs</DependentUpon>
     </EmbeddedResource>
